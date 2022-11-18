@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Link Extraction Site</title>
+    <style>
+    body 
+    {
+    	background-color: black;
+    }
+    h1{
+        color:aquamarine;
+        text-align: center;
+    }
+    #text{
+        margin-top: 50px;
+        margin-left: 10%;
+        width: 75%;
+        height: 75px;
+        padding: 10px;
+    }
+    #link{
+        background-color:rgb(122, 126, 126);
+        color:aliceblue;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 40%;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    #otp{
+        color:darkgrey;
+        font-size: 12px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    </style>
+	</head>
+	<body>
+		<h1>Link Extraction</h1>
+        <textarea id="text" placeholder="Enter text here"></textarea>
+        <button id="link" onclick="sayextract()">Extract link</button>
+        <div id="otp">Your link will appear here</div>
+        <script src="links.js"></script>
+	</body>
+</html>
